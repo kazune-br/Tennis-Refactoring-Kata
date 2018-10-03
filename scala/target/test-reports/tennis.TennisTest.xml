@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="BIZ0015000395.local" name="tennis.TennisTest" tests="99" errors="0" failures="0" skipped="0" time="0.03">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib:/usr/lib"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="idea.runid" value="2017.2"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.171-b11"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="JP"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/kazune.miyagi/workdir/tdd/Tennis-Refactoring-Kata/scala"/><property name="java.runtime.version" value="1.8.0_171-b11"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="idea.managed" value="true"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/x9/2d5m1zcj32j5xmyq4mr66_g1n49mph/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/var/folders/x9/2d5m1zcj32j5xmyq4mr66_g1n49mph/T/jna-675195308/jna13955858437809192.tmp"/><property name="java.library.path" value="/Users/kazune.miyagi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.13.2"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/kazune.miyagi"/><property name="user.timezone" value="Asia/Tokyo"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/Users/kazune.miyagi/Library/Application Support/IntelliJIdea2018.1/Scala/launcher/sbt-launch.jar"/><property name="user.name" value="kazune.miyagi"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/Users/kazune.miyagi/Library/Application Support/IntelliJIdea2018.1/Scala/launcher/sbt-launch.jar idea-shell"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="ja"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="user.language.format" value="en"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_171"/><property name="java.ext.dirs" value="/Users/kazune.miyagi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[0]" time="0.004">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[0]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[0]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[1]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[1]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[1]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[2]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[2]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[2]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[3]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[3]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[3]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[4]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[4]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[4]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[5]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[5]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[5]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[6]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[6]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[6]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[7]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[7]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[7]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[8]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[8]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[8]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[9]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[9]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[9]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[10]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[10]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[10]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[11]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[11]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[11]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[12]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[12]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[12]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[13]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[13]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[13]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[14]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[14]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[14]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[15]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[15]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[15]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[16]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[16]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[16]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[17]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[17]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[17]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[18]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[18]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[18]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[19]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[19]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[19]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[20]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[20]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[20]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[21]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[21]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[21]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[22]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[22]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[22]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[23]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[23]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[23]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[24]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[24]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[24]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[25]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[25]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[25]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[26]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[26]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[26]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[27]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[27]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[27]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[28]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[28]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[28]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[29]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[29]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[29]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[30]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[30]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[30]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[31]" time="0.001">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[31]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[31]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame1[32]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame2[32]" time="0.0">
+                                                 
+                                               </testcase><testcase classname="tennis.TennisTest" name="checkAllScoresTennisGame3[32]" time="0.0">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
