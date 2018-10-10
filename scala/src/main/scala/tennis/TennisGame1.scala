@@ -14,7 +14,7 @@ class TennisGame1(val player1Name: String, val player2Name: String) extends Tenn
 
   def calculateScore(): String = {
     var score: String = ""
-    var tempScore = 0
+
     if (player1Score.even(player2Score)) {
       score = player1Score.point match {
         case 0 => "Love-All"
@@ -24,32 +24,36 @@ class TennisGame1(val player1Name: String, val player2Name: String) extends Tenn
       }
     }
     else if (player1Score.isDeuce(player2Score)) {
-      val minusResult = player1Score.point - player2Score.point
-      if (minusResult == 1) score = "Advantage player1"
-      else if (minusResult == -1) score = "Advantage player2"
-      else if (minusResult >= 2) score = "Win for player1"
-      else score = "Win for player2"
+      score = player1Score.scoreFromDeuce(player2Score)
     }
     else {
-      (1 to 2).foreach { i =>
-        if (i == 1) tempScore = player1Score.point
-        else {
-          score += "-"
-          tempScore = player2Score.point
-        }
-        val tempScore2 = tempScore match {
-          case 0 => "Love"
-          case 1 => "Fifteen"
-          case 2 => "Thirty"
-          case 3 => "Forty"
-        }
-        score += tempScore2
-      }
+      score += player1Score.toString() + "-" + player2Score.toString()
     }
     score
   }
 
+
   class Score() {
+    def scoreFromDeuce(player2Score: Score): String = {
+
+      val difference = point - player2Score.point
+      difference match {
+        case 1 => "Advantage player1"
+        case -1 => "Advantage player2"
+        case _ if difference >= 2 => "Win for player1"
+        case _ => "Win for player2"
+      }
+    }
+
+    override def toString() = {
+      (point match {
+        case 0 => "Love"
+        case 1 => "Fifteen"
+        case 2 => "Thirty"
+        case 3 => "Forty"
+      })
+    }
+
     def isDeuce(m_score2: Score): Boolean = point >= 4 || m_score2.point >= 4
 
     def even(m_score2: Score): Boolean = point == m_score2.point

@@ -4,7 +4,7 @@
 		module="tennis$sources"
 		revision="1.0"
 		status="integration"
-		publication="20181003151508"
+		publication="20181010140340"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
